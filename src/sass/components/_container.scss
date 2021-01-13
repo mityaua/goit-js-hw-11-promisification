@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  font-family: Pacifico;
+  font-size: 5rem;
+  font-weight: 400;
+  letter-spacing: 5px;
+
+  color: #e4e0e0;
+  text-shadow: 0 0px 10px, 0 0 1em #ff0883, 0 0 0.5em #ff0883, 0 0 0.1em #ff0883,
+    0 10px 3px #333333;
+}
+
+.word {
+  animation: flicker linear infinite 2s;
+}
