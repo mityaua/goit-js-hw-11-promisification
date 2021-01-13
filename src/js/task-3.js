@@ -13,7 +13,7 @@ const makeTransaction = transaction => {
         resolve(transaction.id, delay);
       }
 
-      reject(transaction.id, delay);
+      reject(transaction.id);
     }, delay);
   });
 };
